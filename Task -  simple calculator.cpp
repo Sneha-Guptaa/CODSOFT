@@ -42,7 +42,7 @@ else if (c=='*')
   cout<<d<<endl;
 }
   else if(c=='/')
-{//divisio is performed
+{//division is performed
   d=a/b;
  cout<<a<<"/"<<b<<" =";
  cout<<d<<endl;
@@ -54,7 +54,7 @@ else if (c=='*')
 }
 cout<<endl;
  cout << "Want to restart calculator or exit?  "<<endl;
- cout<<"Enter y for Yes and n for No ;";
+ cout<<"Enter y for Yes and n for No :";
    cin >> calc;
 
    if (calc == 'y'||calc=='Y') 
